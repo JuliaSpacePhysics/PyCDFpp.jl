@@ -19,3 +19,5 @@ end
 for f in (:getindex,)
     @eval Base.@propagate_inbounds Base.$f(var::PyCDFVariable, I::Vararg{Int}) = $f(parent(var), I...)
 end
+
+Base.getindex(ds::PyCDF, name::String) = CDM.variable(ds, name)
