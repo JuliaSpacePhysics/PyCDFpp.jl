@@ -1,7 +1,7 @@
 name = "PyCDFpp"
 uuid = "8480bde4-bc3c-44e7-baab-4ff1aa53fe88"
+version = "0.1.1"
 authors = ["Beforerr <zzj956959688@gmail.com> and contributors"]
-version = "0.1.0"
 
 [deps]
 CommonDataFormat = "a9737db6-c05c-4e48-868b-6bc41491d9d9"
