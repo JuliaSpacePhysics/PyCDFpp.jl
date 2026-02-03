@@ -1,2 +1,2 @@
 [pip.deps]
-pycdfpp = "==0.8.0"
+pycdfpp = "==0.8.6"
